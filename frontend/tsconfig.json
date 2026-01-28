@@ -1,0 +1,38 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
+// {
+//   "compilerOptions": {
+//     // ... your other settings
+//     "baseUrl": ".", 
+//     "paths": {
+//       "@/*": ["src/*"] 
+//     }
+//   }
+// }
+
+
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "lib": ["DOM", "DOM.Iterable", "ESNext"],
+//     // This is the line you're missing:
+//     "jsx": "react-jsx", 
+    
+//     "moduleDetection": "force",
+//     "allowJs": true,
+//     "module": "ESNext",
+//     "moduleResolution": "bundler",
+//     "strict": true,
+//     "noEmit": true, // Vite handles the emit, TS just checks types
+//     "skipLibCheck": true,
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["src/*"]
+//     }
+//   }
+// }
